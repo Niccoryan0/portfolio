@@ -1,12 +1,11 @@
 
 @import url("font-awesome.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
-
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Inconsolata:wght@500&display=swap');
 /* Basic */
 
 body {
   background: #fff;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Inconsolata', monospace;
   font-size: 19pt;
   font-weight: 300;
   line-height: 1.75em;
@@ -14,7 +13,7 @@ body {
 } 
 
 input, textarea, select {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Inconsolata', monospace;
   font-size: 19pt;
   font-weight: 300;
   line-height: 1.75em;
@@ -25,6 +24,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   color: #666;
   line-height: 1.5em;
+  font-family: 'Concert One', cursive;
 } 
 
  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -194,18 +194,18 @@ button:active,
 
 #header {
 
-  background: #222629 url("images/overlay.png");
-  box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
+  background: #636160 url("images/overlay.png");
+  box-shadow: inset -0.25em 0 0.25em 0 rgba(85, 83, 83, 0.1);
   color: #fff;
-  text-align: right;
+  text-align: center;
 }
 
 #header .icons a {
-  color: #41484c;
+  color: #af9c9c;
 }
 
 #header .icons a:hover {
-  color: #fff;
+  color: rgb(82, 58, 58);
 }
 
 
@@ -272,6 +272,14 @@ button:active,
 
 /* Main */
 
+  #top > header {
+    background: rgba(128, 128, 128, 0.9);
+    width: fit-content;
+    margin: 0 auto;
+    padding: 5px 15px;
+    color: #f1f1f1;
+  }
+
   #main > section {
     overflow: hidden;
     padding: 4em 0;
@@ -304,24 +312,38 @@ button:active,
         }
 
     #main > section.cover {
-      padding: 10em 0;
       background-size: cover;
       background-position: center center;
     }
 
-    #main > section.one {
-      background-color: #81918E;
-      background-image: url("../../images/banner.jpg");
-    }
 
-    #main > section.two {
-      background-color: #f5fafa;
-    }
+    /* Style the video: 100% width and height to cover the entire window */
+#video {
+  position: absolute;
+  /* left: 140px; */
+  top: 0;
+  left: 0;
+  /* height: 100%; */
+  min-height: 400px;
+  width: 100%;
+  z-index: -1;
+  /* margin-left: 20px; */
+}
 
-    #main > section.three {
-      background-color: #ecf1f1;
-    }
 
-    #main > section.four {
-      background-color: #e8edec;
-    }
+#top {
+  height: 400px;
+  width: 100%;
+}
+
+#main > section.two {
+  background-color: #f5fafa;
+}
+
+#main > section.three {
+  background-color: #ecf1f1;
+}
+
+#main > section.four {
+  background-color: #e8edec;
+}

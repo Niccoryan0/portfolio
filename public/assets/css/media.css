@@ -1,0 +1,136 @@
+/* Wide */
+
+@media screen and (min-width: 961px) {
+
+  /* Basic */
+
+    body, input, textarea, select {
+      font-size: 17pt;
+    }
+
+  /* Header */
+
+    #header {
+      width: 15%;
+    }
+
+  /* Footer */
+
+    #footer {
+      margin-left: 15%;
+    }
+
+  /* Main */
+
+    #main {
+      margin-left: 170px;
+    }
+
+}
+
+/* Normal */
+
+@media screen and (min-width: 961px) and (max-width: 1620px) {
+
+  /* Main */
+
+    #main > section {
+      padding: 3em 0;
+    }
+
+    #main section.cover {
+      padding: 5em 0;
+    }
+
+}
+
+/* Narrow */
+
+@media screen and (min-width: 426px) and (max-width: 1320px) {
+
+  /* Basic */
+
+    body, input, textarea, select {
+      font-size: 16pt;
+    }
+
+    .container {
+      padding: 0 2em 0 2em;
+    }
+
+  /* Icons */
+
+    ul.icons li a {
+      width: 1.75em;
+    }
+
+  /* Item */
+
+    .item {
+      margin-bottom: 20px;
+    }
+
+  /* Header */
+
+    #header {
+      width: 15%;
+    }
+
+    #logo .image {
+      position: relative;
+      margin: 0 0 0.5em 0;
+    }
+
+    #nav ul li a {
+      font-size: 0.8em;
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
+    }
+
+      #nav ul li a span {
+        padding-right: 2.25em;
+      }
+
+        #nav ul li a span:before {
+          left: 100%;
+          margin-left: -1.25em;
+          line-height: 2.25em;
+        }
+
+  /* Footer */
+
+    #footer {
+      margin-left: 15%;
+    }
+
+  /* Main */
+
+    #main {
+      margin-left: 15%;
+    }
+
+}
+
+@media screen and (min-width: 426px) and (max-width: 960px){
+  #header {
+    width: 140px;
+  }
+  #main {
+    margin-left: 140px;
+  }
+}
+
+@media screen and (max-width: 730px){
+  #video {
+    display: none;
+  }
+
+  #top > header {
+    background: rgba(128, 128, 128, 0);
+  }
+
+  #main > section.one {
+    background-color: #81918E;
+    background-image: url("../../images/banner.jpg");
+  }
+}

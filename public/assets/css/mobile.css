@@ -65,7 +65,7 @@
       }
 
       #top > header {
-        background: rgba(128, 128, 128, 0.9);
+        background: rgba(128, 128, 128, 0.0);
         width: fit-content;
         padding: 5px 15px;
       }

@@ -1,12 +1,11 @@
 
 @import url("font-awesome.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
-
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Inconsolata:wght@500&display=swap');
 /* Basic */
 
 body {
   background: #fff;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Inconsolata', monospace;
   font-size: 19pt;
   font-weight: 300;
   line-height: 1.75em;
@@ -14,7 +13,7 @@ body {
 } 
 
 input, textarea, select {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Inconsolata', monospace;
   font-size: 19pt;
   font-weight: 300;
   line-height: 1.75em;
@@ -25,6 +24,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   color: #666;
   line-height: 1.5em;
+  font-family: 'Concert One', cursive;
 } 
 
  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -337,14 +337,15 @@ button:active,
   height: 400px;
   width: 100%;
 }
-    #main > section.two {
-      background-color: #f5fafa;
-    }
 
-    #main > section.three {
-      background-color: #ecf1f1;
-    }
+#main > section.two {
+  background-color: #f5fafa;
+}
 
-    #main > section.four {
-      background-color: #e8edec;
-    }
+#main > section.three {
+  background-color: #ecf1f1;
+}
+
+#main > section.four {
+  background-color: #e8edec;
+}

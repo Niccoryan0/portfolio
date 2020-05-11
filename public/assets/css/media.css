@@ -124,7 +124,11 @@
   #video {
     display: none;
   }
-  
+
+  #top > header {
+    background: rgba(128, 128, 128, 0);
+  }
+
   #main > section.one {
     background-color: #81918E;
     background-image: url("../../images/banner.jpg");

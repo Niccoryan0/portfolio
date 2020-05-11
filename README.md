@@ -21,10 +21,9 @@ Estimate of time needed to complete: Quite Awhile
 
 Start time: 6:30p.m. on Thursday
 
-Finish time: Ongoing
+Finish time: ~4:30p.m on Friday
 
-Actual time needed to complete: A lot (I'm just doing this as I go, hard to say it's finished)
-
+Actual time needed to complete: ~1-1.5 hours split over Thursday and Friday
 
 ### 5/8/2020
 Number and name of feature: Feature #1 Deployment
@@ -40,10 +39,10 @@ Actual time needed to complete: 15 min
 
 Number and name of feature: Feature #2 Add Functionality
 
-Estimate of time needed to complete: 1 hr.
+Estimate of time needed to complete: 2 hrs.
 
-Start time: 4:30 p.m.
+Start time: 4 p.m. on Sunday May 10th
 
-Finish time:  p.m.
+Finish time: 6 p.m.
 
-Actual time needed to complete:  min
+Actual time needed to complete: 120 min, though will continue to make changes

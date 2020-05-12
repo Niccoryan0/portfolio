@@ -42,7 +42,7 @@
     }
 
       #main section.cover header {
-        padding: 0 1em;
+        margin-top: -10px;
       }
 
   /* Footer */

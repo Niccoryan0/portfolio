@@ -347,3 +347,8 @@ button:active,
 #main > section.four {
   background-color: #e8edec;
 }
+
+.findnd > a > img {
+  width: 40%;
+  margin: auto;
+}
